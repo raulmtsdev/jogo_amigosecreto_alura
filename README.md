@@ -1,5 +1,9 @@
 <h1 align="center">Jogo Amigo Secreto</h1>
 <br>
+<h2>Sobre</h2>
+<br>
+<p>Jogo desenvolvido para ajudar na realização de sorteio de amigo secreto, uma vez que no mês de Dezembro se realiza muito amigo secreto, uma brincadeira que é tradição nessa época.</p>
+<br>
 <h2 align="center">Passo a Passo</h2>
 <br>
 <h3>Tela Inicial</h3>
