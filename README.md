@@ -15,3 +15,6 @@
 
 <h3>Descoberta do amigo secreto por cada participante</h3>
 (https://github.com/user-attachments/assets/ab60bd10-401c-4c11-b08f-d4b75e524ec3)
+
+<h3>Botão Reiniciar</h3>
+(https://github.com/user-attachments/assets/e90f9a42-9c3d-47d4-923e-580a772e5081)
