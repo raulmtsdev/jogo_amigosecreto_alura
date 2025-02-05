@@ -1,0 +1,158 @@
+/* Estilo geral */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.header-banner {
+    margin-bottom: 20px;
+}
+
+.main-title {
+    color: #0077cc;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.banner-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Estilo Formulário */
+.input-wrapper {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+    justify-content: center;
+}
+
+.input-name {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button-add {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.button-add:hover {
+    background-color: #218838;
+}
+
+/* Lista de amigos */
+.name-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.name-list li {
+    background-color: #e9f5ff;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* Botões de ação */
+.button-container button {
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 14px;
+}
+
+.button-draw {
+    background-color: #007bff;
+    color: white;
+}
+
+.button-draw:hover {
+    background-color: #0056b3;
+}
+
+.button-reset {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button-reset:hover {
+    background-color: #c82333;
+}
+
+/* Campo sorteio */
+.campo-sorteio {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: none;
+}
+
+.campo-sorteio input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-veramigo {
+    background-color: #6f42c1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.button-veramigo:hover {
+    background-color: #5936a2;
+}
+
+/* Campo do Resultado */
+.result-list {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0077cc;
+    background-color: #e3f2fd;
+    padding: 10px;
+    border-radius: 8px;
+}
